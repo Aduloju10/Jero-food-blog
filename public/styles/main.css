@@ -1,0 +1,80 @@
+body {
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+  
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: x-large;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 80px;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 30px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+
+}
+   
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.card {
+  flex: 1;
+  min-width: 700px;
+  max-width: 800px; 
+  min-height: min-content;
+}
+
+.card-text {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.custom-size-button {
+   width: 100px;
+   height: 50px;
+   font-size: 80%;
+}
+
+#edit-form {
+    display: none; 
+}
